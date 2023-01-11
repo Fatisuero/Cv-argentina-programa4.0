@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_log">Inicio</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home nav_icon'></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link">
+                                <i class='bx bx-user nav_icon'></i> Información personal
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">
+                                <i class='bx bx-book nav_icon'></i> Formación
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-receipt nav_icon'></i> Habilidades
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class='bx bx-briefcase-alt nav_icon'></i> Experiencia
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#lenguages" class="nav_link">
+                                <i class='bx bx-link-external nav_icon' ></i> Idiomas
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- Todos los elementos en este div se generaran como PDF -->
+            <div class="resume" id="areaCv">
+                <div class="resume_left">
+                    <!--========== INICIO ==========-->
+                    <section class="home" id="home">
+                        <div class="home_container section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="file:///C:/Users/fatis/OneDrive/Escritorio/Dise%C3%B1o%20Web/Imagenes/fotoperfil.jpg" alt="" class="home_img">
+
+                                <h1 class="home_title">Roberto Gordon</h1>
+                                <h3 class="home_profession">Odontólogo</h3>
+
+                                <div>
+                                    <a download="" href="assets/pdf/Lav-Antonio_Valda_Rajic--resume.pdf" class="home_button-movil">Descargar CV a PDF</a>
+                                </div>
+                            </div>
+
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class='bx bx-home home_icon' ></i> 9028 Spring St
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-envelope home_icon' ></i> roberto.gordon@example.com
+                                </span>
+                                <span class="home_information">
+                                    <i class='bx bx-phone home_icon'></i> <a href="tel:(699) 304-5185" class="number_color">(699) 304-5185</a>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Botón para cambiar a modo oscuro -->
+                        <i class='bx bx-moon change-theme' title='Theme' id='theme-button'></i>
+
+                        <!-- Botón para generar y descargar pdf. Disponible para desktop. -->
+                        <i class='bx bx-download generate-pdf' title='Generate PDF' id='resume-button'></i>
+
+
+                    </section>
+
+                    <!--========== PERFIL ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Información personal</h2>
+
+                        <p class="profile_description">Odontólogo con especialidad en Cirugía Periodontal. Hace 5 años que practico cirugías periodontales como tratamientos de lesiones de furca, gingivectomías con bisturí  láser, alargamiento de coronas clínicas y abscesos periapicales y periimplantarios. Me considero experto en el tema pero dispuesto a actualizaciones con las nuevas tecnologías.</p>
+                    </section>
+
+                    <!--========== EDUCACION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Formación</h2>
+
+                        <div class="education_container bd-grid">
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Odontólogo Especialista en Periodoncia. Mat. 6052/04</h3>
+                                    <span class="education_studies">Universidad Nacional de Rosario -Promedio 7,65-</span>
+                                    <span class="education_year">2009-2017</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== HABILIDADES  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills_content bd-grid">
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>Manejo equipo de rayos
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>Excel
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>Romexis 6.0
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>Cirugía Láser
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume_right">
+                    <!--========== EXPERIENCIA ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experiencia</h2>
+
+                        <div class="experience_container bd-grid">
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Odontología General - CONSULTORIOS CÓRDOBA (EVA PERÓN 8701)</h3>
+                                    <p class="experience_description">Octubre 2019 al presente</p>
+                                </div>
+                            </div>
+
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Diagnóstico por imágenes - CENTRO DE IMÁGENES ODONTOLÓGICAS ROSARIO (CIOR)</h3>
+                                    <p class="experience_description">Julio 2021 al presente</p>
+                                </div>
+                            </div>
+
+
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">Asistente dental y secretaria - CONSULTORIO ODONTOLÓGICO PEREIRA-TAUZY</h3>
+                                    <p class="experience_description">Mayo 2017 hasta Julio 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== IDIOMAS ==========-->
+                    <section class="languages section" id="lenguages">
+                        <h2 class="section-title">Idiomas</h2>
+
+                        <div class="languages_container">
+                            <div class="languages_content bd-grid">
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Español - Nativo
+                                </li>
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Inglés - Avanzado
+                                </li>
+
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Portugués - Básico
+                                </li>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+        </a>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
